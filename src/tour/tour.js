@@ -44,7 +44,7 @@ angular.module( 'mm.foundation.tour', [ 'mm.foundation.position', 'mm.foundation
 
   this.current = function ( index ) {
     if ( index ) {
-      setCurrentStep( currentIndex );
+      setCurrentStep( index );
     } else {
       return currentIndex;
     }
